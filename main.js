@@ -10,7 +10,10 @@ xmlhttp.onreadystatechange = function() {
 var cityName = document.createTextNode(apiResult.name);
 var weatherDescription = document.createTextNode(apiResult.weather[0].description);
 
+var name = document.querySelector('#city-name span.placeholder1');
+var weather = document.querySelector('#weather-report span.placeholder2');
 
+//console.log(name);
 
 
 
