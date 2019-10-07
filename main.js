@@ -15,17 +15,8 @@ var weather = document.querySelector('#weather-report span.placeholder2');
 
 //console.log(name);
 
-
-
-
-
-
-
-
-
-
-
-
+name.appendChild(cityName);
+weather.appendChild(weatherDescription);
 
 }
 };
