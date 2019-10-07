@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  }
+.container {
+  width: 80%;
+  margin: auto;
+}
+  img {
+    max-width: 80%;
+  }
+
+.placeholder1 {
+  color: yellow;
+}
+
+.placeholder2 {
+  color: yellow;
+}
+
+  #city-name {
+  width: 80%;
+  padding-bottom: 2.0rem;
+  padding-top: 2.0rem;
+  background-color: #0E8463;
+  text-align: center;
+  color: #000000;
+}
+
+#weather-report {
+  background-color: #0A8BA1;
+  width: 80%;
+  padding-bottom: 2.0rem;
+  padding-top: 2.0rem;
+  color: #000000;
+  text-align: center;
+
+}
+
+footer {
+  background-color: #A72021;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 2.0rem;
+  padding-top: 2.0rem;
+  width: 80%;
+}
