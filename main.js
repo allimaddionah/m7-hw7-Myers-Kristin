@@ -4,7 +4,11 @@ xmlhttp.onreadystatechange = function() {
         var apiResult = JSON.parse(this.responseText);
 
 //Code Dealing With The API Data Goes Here
+//console.log(apiResult.name);
+// console.log(apiResult.weather[0].description);
 
+var cityName = document.createTextNode(apiResult.name);
+var weatherDescription = document.createTextNode(apiResult.weather[0].description);
 
 
 
